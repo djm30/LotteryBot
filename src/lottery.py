@@ -1,7 +1,4 @@
-
 import random
-
-
 
 def get_lottery_numbers():
     numbers1_50 = [str(random.randint(1,50)) for x in range(0,5)]
